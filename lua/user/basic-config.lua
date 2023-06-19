@@ -9,6 +9,4 @@ lvim.format_on_save = {
 	timeout = 1000,
 }
 lvim.leader = "space"
-lvim.builtin.alpha.active = true
-lvim.builtin.alpha.mode = "dashboard"
 lvim.builtin.terminal.active = true

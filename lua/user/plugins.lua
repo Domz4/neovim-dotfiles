@@ -11,6 +11,7 @@ lvim.plugins = {
 	{ "SirVer/ultisnips" },
 	{ "mlaursen/vim-react-snippets" },
 	{ "davidosomething/format-ts-errors.nvim" },
+	{ "ThePrimeagen/harpoon" },
 	{
 		"folke/trouble.nvim",
 		cmd = "TroubleToggle",
