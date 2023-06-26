@@ -12,6 +12,7 @@ lvim.plugins = {
 	{ "mlaursen/vim-react-snippets" },
 	{ "davidosomething/format-ts-errors.nvim" },
 	{ "ThePrimeagen/harpoon" },
+	{ "HiPhish/nvim-ts-rainbow2" },
 	{
 		"folke/trouble.nvim",
 		cmd = "TroubleToggle",
@@ -55,5 +56,11 @@ lvim.plugins = {
 	},
 	{
 		"aca/emmet-ls",
+	},
+	{
+		"scalameta/nvim-metals",
+		config = function()
+			require("user.languages.scala").config()
+		end,
 	},
 }
