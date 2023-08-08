@@ -7,7 +7,6 @@ lvim.plugins = {
 	{ "lewis6991/gitsigns.nvim" },
 	{ "Abstract-IDE/Abstract-cs" },
 	{ "Mofiqul/dracula.nvim" },
-	{ "ray-x/aurora" },
 	{ "SirVer/ultisnips" },
 	{ "mlaursen/vim-react-snippets" },
 	{ "davidosomething/format-ts-errors.nvim" },
@@ -16,6 +15,12 @@ lvim.plugins = {
 	{
 		"folke/trouble.nvim",
 		cmd = "TroubleToggle",
+	},
+	{
+		"ray-x/aurora",
+		config = function()
+			vim.g.aurora_transparent = 1
+		end,
 	},
 	{
 		"folke/lsp-colors.nvim",
